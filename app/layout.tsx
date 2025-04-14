@@ -2,13 +2,16 @@ import type React from "react"
 import "@/app/globals.css"
 import { ThemeProvider } from "@/components/theme-provider"
 import { Inter } from "next/font/google"
+import type { Metadata } from "next"
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
-  title: "Shazar Ali - SEO & Digital Marketing Specialist",
-  description: "Senior SEO Executive with expertise in digital marketing, technical SEO, and analytics",
-    generator: 'v0.dev'
+export const metadata: Metadata = {
+  title: "Shazar Ali - Portfolio",
+  description: "Senior SEO Executive & Digital Marketing Specialist",
+  verification: {
+    google: "Mfg9EO6onHw7NKNzl_a7-zXuwbqpVg7XOCWgNiBcXtU",
+  },
 }
 
 export default function RootLayout({
@@ -19,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <meta name="google-site-verification" content="Mfg9EO6onHw7NKNzl_a7-zXuwbqpVg7XOCWgNiBcXtU" />
         <style>
           {`
             @keyframes float {
