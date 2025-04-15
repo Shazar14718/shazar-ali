@@ -12,6 +12,11 @@ export const metadata: Metadata = {
   verification: {
     google: "Mfg9EO6onHw7NKNzl_a7-zXuwbqpVg7XOCWgNiBcXtU",
   },
+  icons: {
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
+    apple: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
@@ -23,6 +28,8 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="google-site-verification" content="Mfg9EO6onHw7NKNzl_a7-zXuwbqpVg7XOCWgNiBcXtU" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
         <style>
           {`
             @keyframes float {
