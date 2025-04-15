@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   title: "Shazar Ali - Portfolio",
-  description: "Senior SEO Executive & Digital Marketing Specialist",
+  description: "Shazar Ali: SEO Executive & Digital Marketer in Karachi—boosting online visibility, organic traffic, and growth with data-driven strategies.",
   verification: {
     google: "Mfg9EO6onHw7NKNzl_a7-zXuwbqpVg7XOCWgNiBcXtU",
   },
