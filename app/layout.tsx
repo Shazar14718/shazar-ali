@@ -17,6 +17,9 @@ export const metadata: Metadata = {
     shortcut: '/favicon.ico',
     apple: '/favicon.ico',
   },
+  alternates: {
+    canonical: 'https://shazar-ali.vercel.app',
+  },
 }
 
 export default function RootLayout({
@@ -30,6 +33,7 @@ export default function RootLayout({
         <meta name="google-site-verification" content="Mfg9EO6onHw7NKNzl_a7-zXuwbqpVg7XOCWgNiBcXtU" />
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="apple-touch-icon" href="/favicon.ico" />
+        <link rel="canonical" href="https://shazar-ali.vercel.app" />
         <style>
           {`
             @keyframes float {
